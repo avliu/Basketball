@@ -80,11 +80,9 @@ int main() {
 
     std::set<std::string> start0;
 
-/*
     collector.process_game(files[0], start1, start3, start0);
-*/
     collector.process_game(files[1], start1, start3, start3);
-/*    collector.process_game(files[2], start1, start3, start0);
+    collector.process_game(files[2], start1, start3, start0);
     collector.process_game(files[3], start2, start4, start0);
     collector.process_game(files[4], start2, start3, start0);
     collector.process_game(files[5], start1, start1, start0);
@@ -93,7 +91,9 @@ int main() {
     collector.process_game(files[8], start1, start3, start0);
     collector.process_game(files[9], start1, start5, start0);
     collector.process_game(files[10], start1, start6, start0);
-    collector.process_game(files[11], start1, start3, start0);*/
+    collector.process_game(files[11], start1, start3, start0);
 
-    collector.write_out_lineups("/home/avliu/Desktop/basketball/lineup_data.csv");
+    collector.write_out_lineups("/home/avliu/Desktop/basketball/OUTPUT_LINEUPS.csv");
+    collector.write_out_players("/home/avliu/Desktop/basketball/OUTPUT_PLAYERS.csv");
+
 }
