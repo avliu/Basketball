@@ -153,7 +153,16 @@ public:
             }
         }
     }
-
+    
+    void write_out_players(std::string filename){
+        std::ofstream out_file (filename);
+        out_file << "player name, Individual Defensive Rebounds,Team DR, available DR,Individual Offensive Rebounds, Team OR, available OR" << std::endl;
+        for(std::pair<std::string, Player> p : roster){
+            if( true ){
+                out_file << p.second.reportRebounds() << std::endl;
+            }
+        }
+    }
 
 };
 
