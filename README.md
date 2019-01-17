@@ -8,6 +8,6 @@ The objective of this project is to pull some statistics regarding the Universit
 1. "programming_details" contains descriptions of the coding implementation, design considerations, and runtime analysis
 2. "basketball_details" describes the motivation from our basketball team to do this project in the first place
 3. "code" contains Python script and C++ programs
-4. "sample_game_data" is an example of the Python-scraped play-by-play log for one game
+4. "sample_scraped_game_data" is an example of the Python-scraped play-by-play log for one game
 5. "OUTPUT..." files are what the program writes automatically
 6. "FINAL_REPORT..." files are the final reports that are sent to the coach. They focus on the 9 most used lineups
