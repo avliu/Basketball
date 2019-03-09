@@ -1,9 +1,9 @@
 -- PROCEDURE --
 First I scrape the website for data using a Python script, splitting each row into these attributes: time, player name, and phrase relating to the action (rebound, makes two points, player enters/leaves, etc.). 
 
-After creating the CSV file of plays, I use C++ to iterate through the file and find three things: 
+After creating the CSV file of plays (contained in the "sample_scraped_game_data" file), I use C++ to iterate through the file and find three things: 
 
-First, the rebounding percentages of each player on the roster. This includes the rebounds made by player x divided by the available rebounds while he is playing; It also includes the rebounds that player x’s team gets while he is on the court divideed by the available rebounds while he is playing (the reason being that some players help their team a rebound without individually getting one). 
+First, the rebounding percentages of each player on the roster. This includes the rebounds made by player x divided by the available rebounds while he is playing; It also includes the rebounds that player x’s team gets while he is on the court divided by the available rebounds while he is playing (the reason being that some players help their team a rebound without individually getting one). 
 
 Second, the rebounding percentages that every group of five players that are on the court (known as a lineup) earns collectively. In other words, it is the rebounds that the team gets divided by rebounding opportunities, when a given lineup is on the court. 
 
