@@ -1,5 +1,5 @@
 -- PROCEDURE --
-First I scrape the website for data using a Python script, splitting each row into a time, a player name, and a phrase relating to the action (rebound, makes two points, player enters/leaves, etc.). 
+First I scrape the website for data using a Python script, splitting each row into these attributes: time, player name, and phrase relating to the action (rebound, makes two points, player enters/leaves, etc.). 
 
 After creating the CSV file of plays, I use C++ to iterate through the file and find three things: 
 
